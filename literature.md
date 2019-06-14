@@ -5,6 +5,8 @@
  - Definition of taxonomic units (e.g. family, order). Any relationship to genetic distance?
  - Papers that use NCBI taxonomy in a systematic or automatic way.
 
+Tips: http://scholar.google.com, https://www.ncbi.nlm.nih.gov/pubmed/
+
 ## Papers
   - “The NCBI Taxonomy database”, Scott Federhen, Nucleic Acids Research, Volume
 40, Issue D1, 1 January 2012, Pages D136-D143, https://doi.org/10.1093/nar/gkr1178,
