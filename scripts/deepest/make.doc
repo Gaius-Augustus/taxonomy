@@ -1,0 +1,32 @@
+The FTP server of NCBI Taxonomy contains a tree of life of very many species and other 'taxa'.
+The following command downloads a database dump, extracts from the archive the file nodes.dmp which contains a table of tree nodes, extracts the first 2 columns from this table and creates another, tab-separated table from them.
+
+wget ftp://ftp.ncbi.nih.gov/pub/taxonomy/taxdump.tar.gz -O - | tar zf - --get nodes.dmp -O | perl -pe 's/(\d+)\t\|\t(\d+).*/$1\t$2/' > taxonomy.tree
+
+> head taxonomy.tree 
+1 1
+2 131567
+6 335928
+7 6
+9 32199
+10      1706371
+11      1707
+13      203488
+14      13
+16      32011
+
+Here, each number identifies a node. The node identified by 1 is the root of the tree of life.
+Each row specifies an edge in the tree: If x and y are the two numbers in a row then there is an edge from node y to node x. The set of numbers in the second column is a subset of the set of numbers in the first column.
+
+Task:
+1) Write a program that finds for a tree in the given input format a deepest node.
+The depth of a node u is the number of edges on the path from the root to u.
+
+2) Apply your program to taxonomy.tree and output a deepest node as well as its depth.
+How man seconds did it run?
+
+------------------------------------------------------------------
+time ./deepest.py 
+Node  327764  has maximal depth  37
+
+real    0m3,295s
