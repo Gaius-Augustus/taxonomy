@@ -12,6 +12,7 @@
 	  They cite a paper after naming these "Taxonomical Guidelines" but I did find nothing on the cited paper.
  - Papers that use NCBI taxonomy in a systematic or automatic way.  
    - Podell S, Gaasterland T, Allen E (2008). Developed an algorithm to better detect HGT. The program execution requires locally available copies of the NCBI Genbank database and also NCBI Taxonomy.
+   - Huson (2007). They developed a software to analyse Metagenomes (MEGAN). It takes the DNA reads, it compares them with known sequences using BLAST, and then it estimates the taxonomical content using the NCBI Taxonomy Database. With a LCA Algorithm, it assigns to each read a set of taxa that hits the comparison. DNA specific sequences will return a taxa near to the leafs, while conserved sequences will return higher order taxa.
 
 Tips: http://scholar.google.com, https://www.ncbi.nlm.nih.gov/pubmed/
 
@@ -32,3 +33,5 @@ __highly relevant__
    _Microbia Taxonomy Discussion_
  - Podell S, Gaasterland T, Allen E (2008) A database of phylogenetically atypical genes in archaeal and bacterial genomes, identified using the DarkHorse algorithm. BMC Bioinformatics **9**:419, https://doi.org/10.1186/1471-2105-9-419  
    _Using NCBI Taxonomy_
+ - Huson et al, MEGAN analysis of metagenomic data, Genome Res, 2007, 17(3):377-86. https://doi.org/10.1101/gr.5969107  
+   _Using NCBI Taxonomy, Genome comparison_
