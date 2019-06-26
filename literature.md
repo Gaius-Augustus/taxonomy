@@ -10,7 +10,8 @@
  - Definition of taxonomic units (e.g. family, order). Any relationship to genetic distance?
    - Oh C, Lee K, Cheong Y, Lee SW, Park SY, et al. (2015). Research of oral microbiomes of canines. For the taxomic assignment of the sequence reads they used NCBI Taxonomy NCBI. However, for the taxomiy based on similarity, they use some "Taxonomical guidelines": Species >97%, Genus >94%, Family >90%, Order >85%, Class >80%, Phylum >75%.  
 	  They cite a paper after naming these "Taxonomical Guidelines" but I did find nothing on the cited paper.
- - Papers that use NCBI taxonomy in a systematic or automatic way.
+ - Papers that use NCBI taxonomy in a systematic or automatic way.  
+   - Podell S, Gaasterland T, Allen E (2008). Developed an algorithm to better detect HGT. The program execution requires locally available copies of the NCBI Genbank database and also NCBI Taxonomy.
 
 Tips: http://scholar.google.com, https://www.ncbi.nlm.nih.gov/pubmed/
 
@@ -29,3 +30,5 @@ __highly relevant__
    _Genome Similarity-Based Taxonomy, Genome comparison_
  - Thompson, C.C., Amaral, G.R., Campeão, M. et al. Arch Microbiol (2015) 197: 359. https://doi.org/10.1007/s00203-014-1071-2  
    _Microbia Taxonomy Discussion_
+ - Podell S, Gaasterland T, Allen E (2008) A database of phylogenetically atypical genes in archaeal and bacterial genomes, identified using the DarkHorse algorithm. BMC Bioinformatics **9**:419, https://doi.org/10.1186/1471-2105-9-419  
+   _Using NCBI Taxonomy_
